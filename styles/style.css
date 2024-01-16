@@ -1,0 +1,413 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+.primary-heading {
+  font-weight: 800px;
+  font-size: 2.4rem;
+}
+
+.primary-color {
+  color: #FF5400;
+}
+
+.primary-font-weight {
+  font-weight: 400;
+  color: #5A5A5D;
+}
+
+.primary-btn {
+  border-radius: 8px;
+  background: #FF5400;
+  color: #FFF;
+  font-weight: 700;
+  padding: 10px;
+  border: 0;
+  cursor: pointer;
+}
+
+/* header styles */
+
+/* navbar styles */
+
+header {
+  margin: 40px 80px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .left-portion {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.nav-heading {
+  font-size: 2.0rem;
+  cursor: pointer;
+}
+
+nav>ul {
+  display: flex;
+  gap: 44px;
+}
+
+nav li {
+  list-style: none;
+  cursor: pointer;
+}
+
+#nav-li {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+
+/* banner styles */
+.banner {
+  margin-top: 50px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../images/Banner-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  text-align: center;
+  padding: 90px 150px;
+}
+
+.banner-heading {
+  color: #FFF;
+  font-size: 3rem;
+}
+
+.banner-description {
+  color: #FFF;
+  font-size: 1rem;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.banner-form {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+}
+
+.banner-field {
+  width: 20%;
+}
+
+.banner-form input {
+  border-radius: 8px;
+  background: #FFF;
+  padding: 10px;
+  text-align: left;
+  border: 0;
+  width: 90%;
+}
+
+.banner-form button {
+  width: 100%;
+}
+
+
+/* main */
+main {
+  margin: 40px 80px;
+}
+
+/*Our Popular Tour styles*/
+.popular-tour {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.popular-content {
+  flex: 1;
+}
+
+.popular-img {
+  width: 100%;
+}
+
+.popular-list {
+  padding: 20px 0px 20px 30px;
+}
+
+.popular-content-des {
+  margin-top: 24px;
+}
+
+.popular-btn {
+  margin-top: 20px;
+}
+
+
+/* Choose Your Destination Styles*/
+.destination {
+  margin-top: 50px;
+}
+
+.destination-content1 {
+  width: 65%;
+  margin: auto;
+  text-align: center;
+}
+
+.destination-des {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.destination-content2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.destination-content2 div {
+  border-radius: 16px;
+  position: relative;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+
+.destination-img-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
+.destination-img1 {
+  grid-area: img1;
+}
+
+.destination-img2 {
+  grid-area: img2;
+}
+
+.destination-img3 {
+  grid-area: img3;
+}
+
+.destination-img4 {
+  grid-area: img4;
+}
+
+.destination-img5 {
+  grid-area: img5;
+}
+
+.destination-img6 {
+  grid-area: img6;
+}
+
+.destination-img7 {
+  grid-area: img7;
+}
+
+.destination-content2 {
+  display: grid;
+  grid-template-areas:
+      "img1 img1 img1 img1 img1 img2 img2 img2 img2 img2"
+      "img3 img3 img3 img4 img4 img4 img4 img4 img5 img5"
+      "img6 img6 img6 img6 img7 img7 img7 img7 img7 img7"
+  ;
+  gap: 10px;
+}
+
+
+/* Choose Us styles */
+.choose-us {
+  margin-top: 50px;
+}
+
+.choose-us-content1 {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.choose-us-content1-des {
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.box-title {
+  color: #131318;
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin-top: 25px;
+}
+
+.box-des{
+  margin-top:16px;
+}
+
+.choose-us-box1 {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 20px;
+  grid-area: box1;
+}
+
+.choose-us-box2 {
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 20px;
+  grid-area: box2;
+}
+
+.choose-us-box3 {
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  grid-area:box3;
+}
+
+
+
+.choose-us-content2 {
+  display: grid;
+  /* grid-template-columns: repeat(2 , 1fr); */
+  grid-template-areas: "box1 box1 box2 box2" "box3 box3 box3 box3";
+  gap: 15px;
+}
+
+
+/* Responsive style */
+
+/* For Phone Screen */
+@media screen and (max-width:600px) {
+  .right-portion-ul {
+      display: none;
+  }
+
+  header,
+  main {
+      margin: 20px 20px;
+  }
+
+  .primary-heading {
+      font-size: 1.4rem;
+  }
+
+  nav .left-portion {
+      gap: 10px;
+  }
+
+  .left-portion>img {
+      height: 1.8rem;
+      width: auto;
+  }
+
+  .banner {
+      padding: 24px 32px;
+  }
+
+  .banner-form {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 5px;
+  }
+
+  .banner-field {
+      width: 95%;
+  }
+
+  .banner-form input {
+      padding-left: 5px;
+      width: 95%;
+  }
+
+  .banner-form button {
+      width: 99%;
+  }
+
+  .popular-tour {
+      flex-direction: column;
+  }
+
+  .destination-content2 {
+      grid-template-areas:
+          "img1"
+          "img2"
+          "img3"
+          "img4"
+          "img5"
+          "img6"
+          "img7"
+      ;
+  }
+
+  .choose-us-box3{
+      width: 90%;
+  }
+
+  .choose-us-content2{
+      grid-template-areas: 
+      "box1 box1"
+      "box2 box2" 
+      "box3 box3";
+  }
+
+  
+
+}
+
+
+
+/* For Tablet */
+@media screen and (min-width:600px) and (max-width:992px) {
+  .right-portion-ul {
+      display: none;
+  }
+
+  header {
+      margin: 30px 90px;
+  }
+
+  .primary-heading {
+      font-size: 1.2rem;
+  }
+
+  nav .left-portion {
+      gap: 10px;
+  }
+
+  .left-portion>img {
+      height: 1.8rem;
+      width: auto;
+  }
+}
+
+
+/* for desktop or laptop */
+@media screen and (min-width:992px) {
+  .right-portion-img {
+      display: none;
+  }
+}
